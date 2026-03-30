@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    background-color: #285A43;
+    height: 374px;
+    position: relative;
+}
+.plant img{
+    opacity: 20%;
+position: absolute;
+left: 20px;
+bottom: 0px;
+}
+.plant-s img{
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    opacity: 20%;
+}
+.heading{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    font-size: 32px;
+    color: #ffffff;
+    font-family:"poppins";
+}
+.logo-flex{
+    margin-top: 35px;
+    gap: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para-flex{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.para-flex p{
+    font-size: 16px;
+    color: white;
+    font-family: "poppins";
+}
+.end{
+  background-color: #121212;
+  text-align: center;
+ padding: 10px;
+ color: white;
+ font-family: "poppins";
+}
+.end h3{
+    opacity: 80%;
+    font-size: 16px;
+}
+.read h5{
+    text-align: center;
+    font-size: 36px;
+    color: #285A43;
+    font-family: "poppins";
+    padding-bottom: 60px;
+}
+.arrow-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-cards{
+    height: 518px;
+    width: 360px;
+}
+.blog-cards img{
+    border-radius: 10px;
+    height: 335px;
+    width: 360px;
+}
+.blog-cards-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap
+    ;
+    gap: 70px;
+}
+.calender{
+    font-family: "poppins";
+
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.arrow{
+    font-family: "poppins";
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-cards h2{
+    font-size: 20px;
+    color: #285A43;
+}
+.blog-cards p{
+    font-size: 16px;
+    color: #121212;
+    font-family: "poppins";
+}
+.bg-pic{
+    flex-wrap: wrap;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-image: url(bac.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.opacity{
+    inset: 0;
+    background-color: #00000099;
+    position: absolute;
+}
+
+.bg-pic h1{
+    opacity: 90%;
+    font-family: "poppins";
+    width: 524px;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.bg-pic input{
+    height: 48px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    opacity: 90%;
+    padding-left: 50px;
+}
+.bg-pic button{
+    height: 48px;
+    width: 147px;
+    background-color: #285A43;
+    opacity: 90%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+.dorris {
+     gap: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 44px;
+}
+.dorris h4{
+    font-size: 20px;
+    font-family: "poppins";
+    color: #285A43;
+}
+.card{
+    border-radius: 10px;
+  width: 360px;
+  height: 329px;
+  background-color: #F8F8F8;
+}
+.card p{
+    
+    margin-top: 31px;
+    padding-left: 44px;
+    width: 260px;
+    font-family: "poppins";
+   font-size: 16px;
+   text-align: start;
+}
+.section-two h2{
+    text-align: center;
+    font-size: 36px;
+    color: #285A43;
+    font-family: "poppins";
+    margin-bottom: 40px;
+}
+
+.section-two-flex{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 49px;
+
+}
+.dorris img{
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+}
+.dorris p{
+    font-size: 20px;
+    color: #285A43;
+    font-family: "poppins";
+}
+.type-card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 250px;
+    width: 280px;
+    object-fit: cover;
+    display: block;
+}
+.type-card{
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #00000008;
+    height: 314px;
+    width: 280px;
+}
+.cactus{
+    display: flex;
+    align-items: center;
+}
+.cac-heading h2{
+    margin-top: 10px;
+  font-size: 16px;
+  color: #337A5B;
+  font-family: "poppins";
+}
+.cac-heading ins{
+    margin-top: 5px;
+    font: bold;
+    font-size: 12px;
+    color: #337A5B;
+    font-family: "poppins";
+}
+.cac-heading del{
+    font-family: "poppins";
+    font-size: 12px;
+    color: #121212;
+    opacity: 50%;
+}
+.cac-btn button{
+    padding: 8px 24px;
+    background-color: #337A5B;
+    border: none;
+    color: #FFFFFF;
+    font-family: "poppins";
+    border-radius: 3px;
+}
+@media (max-width:670px) {
+    .heading h1{
+        font-size: 26px;
+    }
+  .plant img{
+    height: 100px;
+  }
+  .plant-s img{
+    height: 100px;
+    width: 120px;
+  }
+  .logo-flex {
+    gap: 10px;
+  }
+  .logo-flex img{
+    height: 10px;
+  }
+  .end h3{
+    font-size:10px
+  }
+  .para-flex{
+    gap: 14px;
+  }
+  .para-flex p{
+    font-size: 12px;
+  }
+  .read h5{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .bg-pic h1{
+    font-size: 20px;
+     text-align: center;
+     width: 300px;
+     margin-top: 100px;
+  }
+  .bg-pic input{
+    height: 38px;
+    width: 260px;
+    padding-left: 14px;
+  }
+  .bg-pic button{
+    font-size: 13px;
+    height: 38px;
+    width: 130px;
+    margin-bottom: 20px;
+  }
+  .section-two h2{
+    font-size: 30px;
+  }
+  .card{
+    width: 90%;
+  }
+ 
+}
+@media (max-width:360px) {
+    .blog-cards img{
+     width: 300px;
+   
+    }
+    .blog-cards{
+        width: 300px;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .bg-pic input{
+        width: 280px;
+    }
+}
+@media (min-width:1023px){
+    .read h5{
+        font-size: 30px;
+    }
+}
