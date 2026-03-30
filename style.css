@@ -218,7 +218,8 @@ bottom: 0px;
 .three-flex{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
     flex-wrap: wrap;
 }
 .type-card img{
@@ -339,7 +340,6 @@ bottom: 0px;
   .card{
     width: 90%;
   }
- 
 }
 @media (max-width:360px) {
     .blog-cards img{
