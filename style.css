@@ -87,8 +87,7 @@ bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap
-    ;
+    flex-wrap: wrap;
     gap: 70px;
 }
 .calender{
@@ -216,6 +215,12 @@ bottom: 0px;
     color: #285A43;
     font-family: "poppins";
 }
+.three-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .type-card img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -225,11 +230,17 @@ bottom: 0px;
     display: block;
 }
 .type-card{
+    position: relative;
      border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid #00000008;
     height: 314px;
     width: 280px;
+}
+.heart{
+    position: absolute;
+    top: 15px;
+    left: 233px;
 }
 .cactus{
     display: flex;
@@ -257,11 +268,22 @@ bottom: 0px;
 }
 .cac-btn button{
     padding: 8px 24px;
-    background-color: #337A5B;
-    border: none;
-    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #337A5B99;
+    color:#337A5B;
     font-family: "poppins";
     border-radius: 3px;
+}
+.three {
+    margin-bottom: 120px;
+}
+.three h4{
+    font-family: "poppins";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 36px;
+    color: #285A43;
 }
 @media (max-width:670px) {
     .heading h1{
