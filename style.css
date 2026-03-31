@@ -44,6 +44,7 @@ header h1{
     font-family: "poppins";
     opacity: 90%;
 }
+
 .head-ico{
     width: 100%;
     display: flex;
@@ -60,6 +61,7 @@ header h1{
     font-family: "poppins";
     opacity: 90%;
 }
+
 footer{
     background-color: #285A43;
     height: 374px;
@@ -162,10 +164,12 @@ bottom: 0px;
     justify-content: center;
 }
 .blog-cards h2{
+    margin-top: 5px;
     font-size: 20px;
     color: #285A43;
 }
 .blog-cards p{
+    margin-top: 10px;
     font-size: 16px;
     color: #121212;
     font-family: "poppins";
@@ -279,12 +283,12 @@ bottom: 0px;
     flex-wrap: wrap;
 }
 .type-card .img-card{
-    height: 280px;
+    height: 260px;
     width: 280px;
 }
 .image{
     width: 100%;
-    height: 100%;
+    height: 90%;
 border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -307,7 +311,6 @@ border-top-left-radius: 10px;
     justify-content: space-around;
 }
 .cac-heading h2{
-    margin-top: 10px;
   font-size: 16px;
   color: #337A5B;
   font-family: "poppins";
@@ -423,6 +426,8 @@ nav{
     width: 150px;
     border: 1px solid white;
     opacity: 90%;
+    border-radius: 3px;
+    font-size:16px;
     background: transparent;
     color: #FFFFFF;
 }
@@ -433,13 +438,20 @@ nav{
 }
 .overlay{
     position: absolute;
-    background-color: #123827;
-    opacity: 30%;
+    background-color: #1238275e;
     inset: 0;
 }
+
 @media (max-width:670px) {
     .heading h1{
         font-size: 26px;
+    }
+    .btn{
+        margin-left: 40px;
+        border-radius: 2px;
+    }
+    .head img{
+        height:58px;
     }
   .plant img{
     height: 100px;
